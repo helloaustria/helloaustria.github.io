@@ -1,4 +1,8 @@
+{%- if site.article_pages -%}
 {%- assign articles = site.article_pages | sort: "order" -%}
+{%- else -%}
+{%- assign articles = "" | split: "|" -%}
+{%- endif -%}
 {%- assign faq_per_page = site.data.faq.per_page | default: 5 -%}
 <div
   class="faq-nav accordion"

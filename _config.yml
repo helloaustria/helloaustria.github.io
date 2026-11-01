@@ -24,8 +24,12 @@ defaults:
 exclude:
   - Gemfile
   - Gemfile.lock
-  - vendor
   - node_modules
   - README.md
   - scripts
   - _articles
+  # Bundler paths only — keep assets/vendor (Bootstrap) in the site output.
+  - vendor/bundle
+  - vendor/cache
+  - vendor/gems
+  - vendor/ruby

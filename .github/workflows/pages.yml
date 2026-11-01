@@ -1,3 +1,7 @@
+# Build with Bundler + Jekyll 4 (custom _plugins). Requires:
+# Settings → Pages → Build and deployment → Source: GitHub Actions
+# (Do not use "Deploy from a branch" — that uses the github-pages gem
+# and cannot run custom plugins or satisfy this Gemfile.)
 name: Deploy GitHub Pages
 
 on:
@@ -25,12 +29,23 @@ jobs:
         with:
           ruby-version: "3.3.13"
           bundler-cache: true
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
       - name: Build Jekyll site
-        run: bundle exec jekyll build --destination _site
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}" --destination _site
+        env:
+          JEKYLL_ENV: production
+      - name: Verify critical assets
+        run: |
+          test -f _site/assets/vendor/bootstrap.min.css
+          test -f _site/assets/vendor/bootstrap.bundle.min.js
+          test -d _site/articles/welcome-meeting-oead
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: _site
+          include-hidden-files: true
 
   deploy:
     needs: build
@@ -41,4 +56,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

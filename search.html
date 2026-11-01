@@ -22,10 +22,12 @@ show_toc: false
   <noscript>
     <p>JavaScript diperlukan untuk mencari isi artikel. Semua artikel:</p>
     <ul>
+      {% if site.article_pages %}
       {% assign guides = site.article_pages | sort: "order" %}
       {% for item in guides %}
       <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
       {% endfor %}
+      {% endif %}
     </ul>
   </noscript>
 </div>

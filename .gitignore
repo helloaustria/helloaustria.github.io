@@ -2,5 +2,6 @@ _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
-vendor
+# Bundler install path only — do not ignore assets/vendor (Bootstrap).
+/vendor/
 .DS_Store
