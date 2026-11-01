@@ -1,0 +1,76 @@
+---
+layout: article
+title: "Tata Cara Transfer Menggunakan Aplikasi Bank Austria"
+description: "Perlu transfer ke teman ataupun keluarga? Belum tahu caranya? Artikel ini akan menjelaskan bagaimana cara transfer dengan menggunakan aplikasi Bank…"
+section: "Keuangan"
+section_id: "keuangan"
+published: "2025-10-19"
+order: 18
+permalink: "/articles/transfer-aplikasi-bank-austria/"
+image: "/assets/images/transfer-aplikasi-bank-austria-01-pilih-rekening-yang-akan-digunakan.jpg"
+image_alt: "Gambar 1. Pilih rekening yang akan digunakan"
+image_width: 591
+image_height: 699
+searchable: true
+html: |
+  <h2 id="pendahuluan">Pendahuluan</h2>
+  <p>
+    Perlu transfer ke teman ataupun keluarga? Belum tahu caranya? Artikel ini akan menjelaskan bagaimana cara transfer dengan menggunakan aplikasi Bank Austria.
+  </p>
+  <h2 id="langkah-langkah">Langkah-Langkah</h2>
+  <ol>
+    <li>
+      Buka aplikasi Bank Austria, kemudian pada halaman beranda pilih rekening bank yang akan digunakan.
+      <figure class="guide-figure">
+        <img src="/assets/images/transfer-aplikasi-bank-austria-01-pilih-rekening-yang-akan-digunakan.jpg" alt="Gambar 1. Pilih rekening yang akan digunakan" width="591" height="699" loading="eager" decoding="async" fetchpriority="high" style="width:auto;max-width:min(591px,100%)">
+        <figcaption>Gambar 1. Pilih rekening yang akan digunakan</figcaption>
+      </figure>
+    </li>
+    <li>
+      Klik “Credit Transfer”.
+      <figure class="guide-figure">
+        <img src="/assets/images/transfer-aplikasi-bank-austria-02-klik-menu-credit-transfer.jpg" alt="Gambar 2. Klik menu “credit transfer”" width="591" height="690" loading="lazy" decoding="async" style="width:auto;max-width:min(591px,100%)">
+        <figcaption>Gambar 2. Klik menu<em> “credit transfer”</em></figcaption>
+      </figure>
+    </li>
+    <li>
+      Masukkan informasi <strong>nama penerima </strong><em><strong>(beneficiary)</strong></em> lalu tekan tombol “Go” pada <em>keyboard</em>. Kemudian, masukkan informasi <strong>IBAN penerima</strong> lalu tekan tombol “Go” pada <em>keyboard</em>.
+      <figure class="guide-figure">
+        <img src="/assets/images/transfer-aplikasi-bank-austria-03-masukkan-informasi-penerima.jpg" alt="Gambar 3. Masukkan informasi penerima" width="591" height="1280" loading="lazy" decoding="async" style="width:auto;max-width:min(400px,100%)">
+        <figcaption>Gambar 3. Masukkan informasi penerima</figcaption>
+      </figure>
+    </li>
+    <li>
+      Masukkan nominal Euro yang akan ditransfer lalu tekan tombol “Go” pada <em>keyboard</em>.
+      <figure class="guide-figure">
+        <img src="/assets/images/transfer-aplikasi-bank-austria-04-masukkan-nominal-euro-yang-akan-ditransfer.jpg" alt="Gambar 4. Masukkan nominal Euro yang akan ditransfer" width="591" height="1280" loading="lazy" decoding="async" style="width:auto;max-width:min(400px,100%)">
+        <figcaption>Gambar 4. Masukkan nominal Euro yang akan ditransfer</figcaption>
+      </figure>
+    </li>
+    <li>
+      Masukkan informasi <em>purpose text</em> dan <em>payment type</em>, kemudian tekan tombol <em>continue</em>.
+      <ul>
+        <li>
+          Jika transfer untuk pihak tertentu (misal, Wise atau OeAD Student Housing), mereka akan memberikan <em>payment reference</em>. Jika demikian, pada bagian <em>purpose text</em>, pilih<em> “payment reference”</em> kemudian masukkan nomor yang diberikan tersebut ke kolom yang disediakan.
+        </li>
+        <li>
+          Untuk <em>payment type</em>, pilih <em>“instant payment”</em> untuk proses penyelesaian transaksi instan (kurang dari 1 menit). Sementara itu, pilih <em>“SEPA standard”</em> jika transaksi akan diproses dalam 1x24 jam. Pada saat tulisan ini dibuat, tidak ada perbedaan <em>fee</em> diantara kedua <em>payment type</em> tersebut (sama-sama gratis).
+        </li>
+      </ul>
+      <figure class="guide-figure">
+        <img src="/assets/images/transfer-aplikasi-bank-austria-05-masukkan-informasi-purpose-text-dan-pilih-payment-type.jpg" alt="Gambar 5. Masukkan informasi purpose text dan pilih payment type" width="591" height="1280" loading="lazy" decoding="async" style="width:auto;max-width:min(400px,100%)">
+        <figcaption>
+          Gambar 5. Masukkan informasi <em>purpose text</em> dan pilih <em>payment type</em>
+        </figcaption>
+      </figure>
+    </li>
+    <li>
+      Halaman <em>transaction summary</em> akan muncul. Pastikan seluruh informasi yang diberikan sudah benar. Jika sudah yakin, tekan tombol<em> “verification of payee”</em> untuk mengeksekusi transaksi dan ikuti <em>screen-screen</em> otentikasi selanjutnya.
+      <figure class="guide-figure">
+        <img src="/assets/images/transfer-aplikasi-bank-austria-06-halaman-verifikasi.jpg" alt="Gambar 6. Halaman verifikasi" width="591" height="1280" loading="lazy" decoding="async" style="width:auto;max-width:min(400px,100%)">
+        <figcaption>Gambar 6. Halaman verifikasi</figcaption>
+      </figure>
+    </li>
+    <li>Selesai.</li>
+  </ol>
+---

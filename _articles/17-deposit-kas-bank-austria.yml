@@ -1,0 +1,49 @@
+---
+layout: article
+title: "Tata Cara Deposit Kas ke Bank Austria"
+description: "Proses deposit kas ke Bank Austria umum dilakukan melalui mesin ATM (self-deposit), sehingga dibutuhkan kartu ATM. Akan tetapi, pada saat pembuatan akun…"
+section: "Keuangan"
+section_id: "keuangan"
+published: "2025-10-13"
+order: 17
+permalink: "/articles/deposit-kas-bank-austria/"
+searchable: true
+html: |
+  <h2 id="pendahuluan">Pendahuluan</h2>
+  <p>
+    Proses deposit kas ke Bank Austria umum dilakukan melalui mesin ATM <em>(self-deposit)</em>, sehingga dibutuhkan kartu ATM. Akan tetapi, pada saat pembuatan akun bank, kartu tidak langsung jadi pada saat itu juga. Kartu akan dikirimkan ke alamat pos dalam 1-2 minggu. Jika ingin melakukan deposit kas secara langsung tanpa kartu, salah satu cara yang dilakukan adalah dengan melalui <em>teller</em> yang melayani deposit kas.
+  </p>
+  <h2 id="persyaratan">Persyaratan</h2>
+  <ul>
+    <li>ID (paspor)</li>
+    <li>Nomor rekening (menggunakan aplikasi)</li>
+    <li>Sejumlah uang kas</li>
+  </ul>
+  <h2 id="biaya">Biaya</h2>
+  <p>3.89 Euro</p>
+  <h2 id="langkah-langkah">Langkah-Langkah</h2>
+  <ol>
+    <li>
+      Datang ke cabang Bank Austria yang memiliki fasilitas <em>teller</em> (cek <a href="/articles/pencairan-cek-oead/">disini</a>).
+    </li>
+    <li>
+      Sampaikan kepada <em>front officer</em> bahwa kita hendak melakukan deposit kas, kemudian ambil nomor antrian.
+    </li>
+    <li>Tunggu hingga nomor antrian dipanggil.</li>
+    <li>
+      Sampaikan kepada <em>teller</em> bahwa kita hendak melakukan deposit kas. Berikan ID (paspor) dan nomor rekening serta kas ke petugas.
+    </li>
+    <li>
+      Petugas akan memproses dan, jika oke, kita akan diminta untuk mengonfirmasi jumlah yang akan didepositkan dengan menuliskan nominal yang hendak kita setorkan di layar yang diberikan.
+    </li>
+    <li>Selesai, perubahan saldo sudah dapat dilihat di aplikasi.</li>
+  </ol>
+  <h2 id="catatan-pengalaman-pribadi">Catatan Pengalaman Pribadi</h2>
+  <ul>
+    <li>
+      Tidak seperti di Indonesia, deposit kas melalui <em>teller</em> dikenakan sejumlah biaya (pada saat tulisan ini dibuat, <strong>3.89 Euro</strong>).
+    </li>
+    <li>Hanya cabang yang memiliki fasilitas <em>teller</em> yang dapat melayani deposit kas.</li>
+    <li>Disarankan datang pagi (sebelum jam 12 siang).</li>
+  </ul>
+---

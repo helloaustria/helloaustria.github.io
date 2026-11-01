@@ -1,0 +1,31 @@
+---
+layout: page
+title: Cari artikel
+seo_title: Cari artikel Austria
+description: Cari artikel checklist dan panduan kedatangan di Austria.
+permalink: /search/
+sitemap: false
+robots: noindex, follow
+searchable: false
+show_toc: false
+---
+
+<div id="search-page">
+  <form class="search-page-form" action="{{ '/search/' | relative_url }}" method="get" role="search">
+    <label class="visually-hidden" for="search-input">Kata kunci</label>
+    <input class="form-control search-input" type="search" id="search-input" name="q" placeholder="Keywords" enterkeyhint="search">
+    <button class="visually-hidden" type="submit">Cari</button>
+  </form>
+  <p id="search-status" role="status"></p>
+  <div id="search-directory"></div>
+  <ul id="search-results" class="result-list"></ul>
+  <noscript>
+    <p>JavaScript diperlukan untuk mencari isi artikel. Semua artikel:</p>
+    <ul>
+      {% assign guides = site.article_pages | sort: "order" %}
+      {% for item in guides %}
+      <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </noscript>
+</div>

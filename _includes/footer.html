@@ -1,0 +1,28 @@
+<footer class="site-footer">
+  <div class="container-fluid content-shell footer-inner">
+    {% assign site_updated = site.data.site.last_updated %}
+    <p class="footer-updated">Last update: <time datetime="{{ site_updated | date: '%Y-%m-%d' }}">{% include format-date.html date=site_updated %}</time></p>
+    <div class="footer-license">
+      <a
+        class="license-badge"
+        href="https://creativecommons.org/licenses/by-nc/4.0/"
+        target="_blank"
+        rel="noopener noreferrer license"
+        title="Creative Commons Attribution-NonCommercial 4.0 International"
+      >
+        <img
+          src="{{ '/assets/images/cc-by-nc-4.0.png' | relative_url }}"
+          alt="Creative Commons BY-NC 4.0"
+          width="88"
+          height="31"
+          loading="lazy"
+          decoding="async"
+        >
+      </a>
+      <p class="license-text">
+        Konten dilisensikan di bawah
+        <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a>.
+      </p>
+    </div>
+  </div>
+</footer>

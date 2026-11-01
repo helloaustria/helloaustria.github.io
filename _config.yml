@@ -1,0 +1,31 @@
+title: Hello Austria
+tagline: EMG — From Award Letter to Arrival in Vienna, Austria
+description: >-
+  Panduan beasiswa Ernst Mach Grant (EMG) ASEA-UNINET, dari surat penerimaan
+  sampai tiba di Wina: admisi, visa, Meldezettel, bank, dan ÖGK.
+url: https://helloaustria.github.io
+baseurl: ""
+lang: id
+author: Arief Purnama Muharram
+timezone: Europe/Vienna
+default_image: /assets/images/social-preview.png
+austria_red: "#C8102E"
+
+markdown: kramdown
+permalink: pretty
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - README.md
+  - scripts
+  - _articles

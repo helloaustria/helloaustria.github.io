@@ -1,0 +1,16 @@
+---
+layout: article
+title: "Apa Itu SEPA dan IBAN?"
+description: "Jawab:"
+section: "Keuangan"
+section_id: "keuangan"
+published: "2025-10-14"
+order: 16
+permalink: "/articles/sepa-dan-iban/"
+searchable: true
+html: |
+  <p><strong>Jawab:</strong></p>
+  <p>
+    SEPA <em>(Single Europe Payment Area)</em> merupakan inisiatif Uni Eropa dalam mengharmonisasikan pembayaran Euro. Sementara itu, IBAN <em>(International Bank Account Number)</em> merupakan nomor rekening yang berlaku internasional. Dengan SEPA, kita dapat melakukan transaksi Euro (transfer/pembayaran/lainnya) dengan cepat.
+  </p>
+---

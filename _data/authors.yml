@@ -1,0 +1,15 @@
+- name: Arief Purnama Muharram
+  role: Author
+  affiliation: Vienna University of Economics and Business (WU)
+  photo: /assets/images/authors/arief-purnama-muharram.jpg
+  photo_alt: Photo of Arief Purnama Muharram in Busan, South Korea (2019)
+  email:
+    - address: ariefpurnamamuharram@gmail.com
+      type: personal
+    - address: arief.purnama.muharram@wu.ac.at
+      type: office
+  links:
+    - label: LinkedIn
+      url: https://linkedin.com/in/ariefpurnamamuharram
+    - label: Personal page
+      url: https://ariefpurnamamuharram.github.io/

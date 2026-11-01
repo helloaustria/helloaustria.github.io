@@ -1,0 +1,20 @@
+# FAQ settings — adjust `per_page` anytime without touching templates.
+# To add a category: append an item under `sections` with a unique `id`,
+# then set `section` / `section_id` on articles in `_articles/*.yml` to match.
+per_page: 5
+
+sections:
+  - id: administrasi
+    title: Administrasi
+  - id: belanja
+    title: Belanja
+  - id: kehidupan-di-student-dorm-viennabase19
+    title: Kehidupan di Student Dorm (Viennabase19)
+  - id: kesehatan
+    title: Kesehatan
+  - id: keuangan
+    title: Keuangan
+  - id: transportasi
+    title: Transportasi
+  - id: lainnya
+    title: Lainnya

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://helloaustria.github.io/sitemap.xml

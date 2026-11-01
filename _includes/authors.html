@@ -1,0 +1,93 @@
+<section class="authors" aria-labelledby="authors">
+  <h2 id="authors">Author</h2>
+  <div class="authors-grid">
+    {% for author in site.data.authors %}
+    <article class="author-card">
+      {% if author.photo %}
+      <img
+        class="author-photo"
+        src="{{ author.photo | relative_url }}"
+        alt="{{ author.photo_alt | default: author.name }}"
+        width="120"
+        height="120"
+        loading="lazy"
+        decoding="async"
+      >
+      {% endif %}
+      <div class="author-body">
+        <h3 class="author-name">{{ author.name }}</h3>
+        {% if author.role or author.affiliation %}
+        <p class="author-role">
+          {%- if author.role -%}{{ author.role }}{%- endif -%}
+          {%- if author.role and author.affiliation %} · {% endif -%}
+          {%- if author.affiliation -%}{{ author.affiliation }}{%- endif -%}
+        </p>
+        {% endif %}
+        <ul class="author-actions">
+          {% if author.email %}
+            {% for item in author.email %}
+              {% if item.address %}
+                {% assign address = item.address %}
+                {% assign email_type = item.type | default: "personal" %}
+              {% else %}
+                {% assign address = item %}
+                {% assign email_type = "personal" %}
+                {% if address contains "wu.ac.at" %}
+                  {% assign email_type = "office" %}
+                {% endif %}
+              {% endif %}
+            <li>
+              <a
+                class="author-icon-link"
+                href="mailto:{{ address }}"
+                title="{{ address }}"
+                aria-label="{% if email_type == 'office' %}Office email{% else %}Email{% endif %} {{ address }}"
+              >
+                {% if email_type == "office" %}
+                <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false">
+                  <path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" d="M8 8.2V6.6A1.6 1.6 0 0 1 9.6 5h4.8A1.6 1.6 0 0 1 16 6.6v1.6"/>
+                  <rect x="3.5" y="8.2" width="17" height="11.3" rx="1.4" fill="none" stroke="currentColor" stroke-width="1.7"/>
+                  <path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" d="M3.5 12.8h17M11 12.8v2.2h2v-2.2"/>
+                </svg>
+                {% else %}
+                <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false">
+                  <path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" d="M4 6.5h16a1.5 1.5 0 0 1 1.5 1.5v10A1.5 1.5 0 0 1 20 19.5H4A1.5 1.5 0 0 1 2.5 18V8A1.5 1.5 0 0 1 4 6.5z"/>
+                  <path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" d="m3.2 7.6 8.8 6.2 8.8-6.2"/>
+                </svg>
+                {% endif %}
+              </a>
+            </li>
+            {% endfor %}
+          {% endif %}
+          {% if author.links %}
+            {% for link in author.links %}
+              {% assign label = link.label | downcase %}
+              <li>
+                <a
+                  class="author-icon-link"
+                  href="{{ link.url }}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="{{ link.label }}"
+                  aria-label="{{ link.label }}"
+                >
+                  {% if label contains 'linkedin' %}
+                  <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false">
+                    <path fill="currentColor" d="M6.34 8.95H3.56V20.5h2.78zm.18-3.16a1.64 1.64 0 1 1-3.28 0 1.64 1.64 0 0 1 3.28 0M20.44 13.4c0-3.2-1.71-4.69-4-4.69a3.45 3.45 0 0 0-3.1 1.71h-.05V8.95H10.6c.04.82 0 11.55 0 11.55h2.7v-6.45c0-.34.02-.69.13-1 .28-.69.92-1.4 1.99-1.4 1.4 0 1.96 1.07 1.96 2.63v6.22h2.7z"/>
+                  </svg>
+                  {% else %}
+                  <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false">
+                    <path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" d="M12 3.5a8.5 8.5 0 1 0 0 17 8.5 8.5 0 0 0 0-17z"/>
+                    <path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" d="M3.7 12h16.6M12 3.5c2.3 2.4 3.5 5.4 3.5 8.5S14.3 18.1 12 20.5C9.7 18.1 8.5 15.1 8.5 12S9.7 5.9 12 3.5z"/>
+                  </svg>
+                  {% endif %}
+                </a>
+              </li>
+            {% endfor %}
+          {% endif %}
+        </ul>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>

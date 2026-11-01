@@ -1,0 +1,22 @@
+---
+layout: article
+title: "[Bank Permata] Tidak Bisa Membuka Aplikasi Permata ME?"
+description: "Jawab:"
+section: "Keuangan"
+section_id: "keuangan"
+published: "2025-10-19"
+order: 20
+permalink: "/articles/bank-permata-me/"
+searchable: true
+html: |
+  <p><strong>Jawab:</strong></p>
+  <p>
+    Pada kasus saya, aplikasi Permata ME tidak bisa dibuka menggunakan jaringan internet di Austria. Jika teman-teman menggunakan aplikasi Permata ME dan mengalami kasus yang serupa, solusinya pakai <strong>VPN</strong> (atau <strong>VPN premium</strong>). Caranya sebagai berikut:
+  </p>
+  <ol>
+    <li>Aktifkan VPN kita.</li>
+    <li>Untuk lokasi servernya, pilih <strong>Indonesia</strong>.</li>
+    <li>Tutup dan buka ulang aplikasi Permata ME.</li>
+    <li>Selesai.</li>
+  </ol>
+---

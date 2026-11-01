@@ -1,0 +1,16 @@
+---
+layout: article
+title: "Aplikasi yang Saya Cari Tidak Ditemukan?"
+description: "Jawab:"
+section: "Lainnya"
+section_id: "lainnya"
+published: "2025-10-21"
+order: 24
+permalink: "/articles/aplikasi-tidak-ditemukan/"
+searchable: true
+html: |
+  <p><strong>Jawab:</strong></p>
+  <p>
+    Terutama masalah ini sering ditemukan pada perangkat <strong>Android</strong>. Beberapa aplikasi memang diatur hanya dapat diunduh oleh residen Austria (contoh: Bank Austria). Bisa jadi ini yang menyebabkan aplikasi tersebut tidak dapat dicari oleh teman-teman di PlayStore. Untuk ini, solusinya adalah dengan mengubah <em>country</em> profil akun Google teman-teman menjadi Austria terlebih dahulu. Setelah itu, tunggu beberapa saat kemudian <em>restart</em> perangkat Android teman-teman. Jika cara ini tidak berhasil, solusi lainnya adalah dengan membuat akun Google baru dengan <em>country</em>-nya diset ke Austria. <u>Tidak direkomendasikan memaksakan diri dengan menggunakan </u><em><u>store</u></em><u> pihak ketiga (apalagi mengunduh APK-nya langsung) karena keamanannya tidak ada yang bisa menjamin, terlebih jika itu adalah aplikasi perbankan!</u>
+  </p>
+---

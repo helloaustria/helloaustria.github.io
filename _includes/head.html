@@ -1,0 +1,145 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+(function () {
+  try {
+    var theme = localStorage.getItem("theme");
+    if (theme === "light" || theme === "dark") {
+      document.documentElement.setAttribute("data-theme", theme);
+    }
+    var dark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+    var mode = theme === "light" || theme === "dark" ? theme : (dark ? "dark" : "light");
+    document.documentElement.setAttribute("data-bs-theme", mode);
+  } catch (error) {}
+})();
+</script>
+<style>html{background:#ffffff;color:#1c1c1c}@media (prefers-color-scheme:dark){html:not([data-theme="light"]){background:#121212;color:#f3f3f3}}html[data-theme="dark"]{background:#121212;color:#f3f3f3}html[data-theme="light"]{background:#ffffff;color:#1c1c1c}</style>
+{%- assign document_title = page.seo_title | default: page.title | default: site.title -%}
+{%- assign summary = page.description | default: site.description -%}
+{%- assign share = page.image | default: site.default_image -%}
+{%- assign share_alt = page.image_alt | default: site.data.site.share.alt | default: document_title -%}
+{%- assign share_width = page.image_width | default: site.data.site.share.width -%}
+{%- assign share_height = page.image_height | default: site.data.site.share.height -%}
+<title>{{ document_title }} | {{ site.title }}</title>
+<meta name="description" content="{{ summary }}">
+<meta name="author" content="{{ site.author }}">
+<meta name="application-name" content="{{ site.title }}">
+<meta name="apple-mobile-web-app-title" content="{{ site.title }}">
+{% if page.robots %}
+<meta name="robots" content="{{ page.robots }}">
+{% else %}
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+{% endif %}
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121212" media="(prefers-color-scheme: dark)">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:locale" content="id_ID">
+<meta property="og:title" content="{{ document_title }}">
+<meta property="og:description" content="{{ summary }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:type" content="{% if page.collection == 'articles' or page.article %}article{% else %}website{% endif %}">
+{% if share %}
+<meta property="og:image" content="{{ share | absolute_url }}">
+<meta property="og:image:alt" content="{{ share_alt }}">
+{% if share_width %}
+<meta property="og:image:width" content="{{ share_width }}">
+<meta property="og:image:height" content="{{ share_height }}">
+{% endif %}
+{% endif %}
+{% if site.data.site.last_updated %}
+<meta property="article:modified_time" content="{{ site.data.site.last_updated | date: '%Y-%m-%d' }}">
+{% endif %}
+{% if page.published %}
+<meta property="article:published_time" content="{{ page.published | date: '%Y-%m-%d' }}">
+{% endif %}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ document_title }}">
+<meta name="twitter:description" content="{{ summary }}">
+{% if share %}
+<meta name="twitter:image" content="{{ share | absolute_url }}">
+<meta name="twitter:image:alt" content="{{ share_alt }}">
+{% endif %}
+<link rel="icon" href="{{ '/favicon.ico' | relative_url }}" sizes="any">
+<link rel="icon" href="{{ '/favicon.svg' | relative_url }}" type="image/svg+xml">
+<link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/vendor/bootstrap.min.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+{% if page.url == "/" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": {{ site.title | jsonify }},
+  "url": {{ "/" | absolute_url | jsonify }},
+  "description": {{ site.description | jsonify }},
+  "inLanguage": "id",
+  "publisher": {
+    "@type": "Person",
+    "name": {{ site.author | jsonify }}
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "{{ '/search/' | absolute_url }}?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+{% endif %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "{% if page.collection == 'articles' or page.article %}Article{% else %}WebPage{% endif %}",
+  "headline": {{ document_title | jsonify }},
+  "name": {{ page.title | default: document_title | jsonify }},
+  "description": {{ summary | jsonify }},
+  "url": {{ page.url | absolute_url | jsonify }},
+  "inLanguage": "id",
+  "isAccessibleForFree": true,
+  {% if share %}"image": {{ share | absolute_url | jsonify }},{% endif %}
+  {% if page.published %}"datePublished": {{ page.published | date: '%Y-%m-%d' | jsonify }},{% endif %}
+  {% if site.data.site.last_updated %}"dateModified": {{ site.data.site.last_updated | date: '%Y-%m-%d' | jsonify }},{% endif %}
+  "author": {
+    "@type": "Person",
+    "name": {{ site.author | jsonify }}
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ site.title | jsonify }},
+    "url": {{ "/" | absolute_url | jsonify }},
+    "logo": {
+      "@type": "ImageObject",
+      "url": {{ "/apple-touch-icon.png" | absolute_url | jsonify }}
+    }
+  },
+  "mainEntityOfPage": {{ page.url | absolute_url | jsonify }}
+}
+</script>
+{% if page.section and page.section_id %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Beranda",
+      "item": {{ "/" | absolute_url | jsonify }}
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": {{ page.section | jsonify }},
+      "item": {{ page.section_id | prepend: "/#" | absolute_url | jsonify }}
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": {{ page.title | jsonify }},
+      "item": {{ page.url | absolute_url | jsonify }}
+    }
+  ]
+}
+</script>
+{% endif %}

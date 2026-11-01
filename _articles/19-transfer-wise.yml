@@ -1,0 +1,96 @@
+---
+layout: article
+title: "Tata Cara Transfer ke Rekening Indonesia dengan Wise"
+description: "Bagaimana jika kita perlu mentransfer dana ke rekening bank di Indonesia? Wise bisa jadi solusinya! Wise merupakan platform pihak ketiga yang menyediakan…"
+section: "Keuangan"
+section_id: "keuangan"
+published: "2025-10-19"
+order: 19
+permalink: "/articles/transfer-wise/"
+image: "/assets/images/transfer-wise-01-klik-tombol-send.jpg"
+image_alt: "Gambar 1. Klik tombol “send”"
+image_width: 591
+image_height: 350
+searchable: true
+html: |
+  <h2 id="pendahuluan">Pendahuluan</h2>
+  <p>
+    Bagaimana jika kita perlu mentransfer dana ke rekening bank di Indonesia? Wise bisa jadi solusinya! Wise merupakan <em>platform</em> pihak ketiga yang menyediakan fasilitas untuk transfer antarnegara. Kenapa pilih Wise? Sederhananya, karena Wise merupakan <em>platform</em> yang <em>well-known</em> dengan <em>fee</em> transfer antarnegara yang rendah, serta kurs yang kompetitif.
+  </p>
+  <h2 id="prasyarat">Prasyarat</h2>
+  <p>Sudah memiliki akun Wise.</p>
+  <h2 id="langkah-langkah">Langkah-Langkah</h2>
+  <ol>
+    <li>
+      Buka aplikasi Wise, kemudian pada halaman beranda klik tombol<em> “send”</em>.
+      <figure class="guide-figure">
+        <img src="/assets/images/transfer-wise-01-klik-tombol-send.jpg" alt="Gambar 1. Klik tombol “send”" width="591" height="350" loading="eager" decoding="async" fetchpriority="high" style="width:auto;max-width:min(591px,100%)">
+        <figcaption>Gambar 1. Klik tombol “send”</figcaption>
+      </figure>
+    </li>
+    <li>
+      Klik tombol<em> “add recipient”</em>.
+      <figure class="guide-figure">
+        <img src="/assets/images/transfer-wise-02-klik-tombol-add-recipient.jpg" alt="Gambar 2. Klik tombol “add recipient”" width="591" height="330" loading="lazy" decoding="async" style="width:auto;max-width:min(591px,100%)">
+        <figcaption>Gambar 2. Klik tombol<em> “add recipient”</em></figcaption>
+      </figure>
+    </li>
+    <li>
+      Cari atau pilih mata uang Rupiah.
+      <figure class="guide-figure">
+        <img src="/assets/images/transfer-wise-03-pilih-mata-uang-rupiah.jpg" alt="Gambar 3. Pilih mata uang Rupiah" width="591" height="1280" loading="lazy" decoding="async" style="width:auto;max-width:min(400px,100%)">
+        <figcaption>Gambar 3. Pilih mata uang Rupiah</figcaption>
+      </figure>
+    </li>
+    <li>
+      Pada tutorial ini kita akan transfer langsung ke rekening bank yang ada di Indonesia. Oleh karena itu, pada <em>screen</em> ini, pilih<em> “bank details”</em>.
+      <figure class="guide-figure">
+        <img src="/assets/images/transfer-wise-04-pilih-bank-details.jpg" alt="Gambar 4. Pilih “bank details”" width="591" height="1280" loading="lazy" decoding="async" style="width:auto;max-width:min(400px,100%)">
+        <figcaption>Gambar 4. Pilih<em> “bank details”</em></figcaption>
+      </figure>
+    </li>
+    <li>
+      Masukkan <strong>informasi penerima</strong> yang meliputi <em>email</em>, nama penerima, nama bank, dan nomor rekening.
+      <figure class="guide-figure">
+        <img src="/assets/images/transfer-wise-05-informasi-penerima.jpg" alt="Gambar 5. Informasi penerima" width="591" height="1280" loading="lazy" decoding="async" style="width:auto;max-width:min(400px,100%)">
+        <figcaption>Gambar 5. Informasi penerima</figcaption>
+      </figure>
+    </li>
+    <li>
+      Wise akan melakukan verifikasi kebenaran data penerima. Jika ada kesalahan informasi yang diberikan (misal, ketidaksesuaian nama), Wise akan memberikan peringatan.
+      <figure class="guide-figure">
+        <img src="/assets/images/transfer-wise-06-verifikasi-kebenaran-data-penerima.jpg" alt="Gambar 6. Verifikasi kebenaran data penerima" width="591" height="1280" loading="lazy" decoding="async" style="width:auto;max-width:min(400px,100%)">
+        <figcaption>Gambar 6. Verifikasi kebenaran data penerima</figcaption>
+      </figure>
+    </li>
+    <li>
+      Masukkan informasi nominal yang akan ditransfer. Nominal yang akan ditransfer dapat dimasukkan di salah satu kolom mata uang. Wise secara otomatis akan menghitung berapa biaya transfernya dan kurs yang akan “dijaga” selama proses transaksi berlangsung.
+      <figure class="guide-figure">
+        <img src="/assets/images/transfer-wise-07-masukkan-nominal-yang-akan-ditransfer.jpg" alt="Gambar 7. Masukkan nominal yang akan ditransfer" width="591" height="1280" loading="lazy" decoding="async" style="width:auto;max-width:min(400px,100%)">
+        <figcaption>Gambar 7. Masukkan nominal yang akan ditransfer</figcaption>
+      </figure>
+    </li>
+    <li>
+      Pada halaman <em>review</em> transaksi, pastikan seluruh detail penerima dan nominal yang akan ditransfer sudah benar. Jika sudah benar, tekan tombol<em> “continue to instructions”</em>.
+      <figure class="guide-figure">
+        <img src="/assets/images/transfer-wise-08-halaman-review-transaksi.jpg" alt="Gambar 8. Halaman review transaksi" width="591" height="1280" loading="lazy" decoding="async" style="width:auto;max-width:min(400px,100%)">
+        <figcaption>Gambar 8. Halaman <em>review</em> transaksi</figcaption>
+      </figure>
+    </li>
+    <li>
+      Pilih jenis akun yang akan digunakan untuk mentransfer dana. Jika merupakan akun sendiri, pilih <em>“an individual account”</em>. Klik tombol<em> “continue”</em> untuk melanjutkan instruksi.
+      <figure class="guide-figure">
+        <img src="/assets/images/transfer-wise-09-jenis-akun-yang-akan-digunakan-untuk-transfer.jpg" alt="Gambar 9. Jenis akun yang akan digunakan untuk transfer" width="591" height="1280" loading="lazy" decoding="async" style="width:auto;max-width:min(400px,100%)">
+        <figcaption>Gambar 9. Jenis akun yang akan digunakan untuk transfer</figcaption>
+      </figure>
+    </li>
+    <li>
+      Halaman informasi transfer ke rekening Wise akan tampilkan. Lakukan proses transfer dana ke rekening Wise sesuai dengan instruksi yang tampil. Jika menggunakan Bank Austria, silakan <a href="/articles/transfer-aplikasi-bank-austria/">klik disini</a>. Jika sudah melakukan transfer dana ke Wise, klik tombol <em>“I’ve made my bank transfer”</em> untuk menyelesaikan proses transaksi.
+      <figure class="guide-figure">
+        <img src="/assets/images/transfer-wise-10-informasi-transfer-ke-rekening-wise.jpg" alt="Gambar 10. Informasi transfer ke rekening Wise" width="591" height="1280" loading="lazy" decoding="async" style="width:auto;max-width:min(400px,100%)">
+        <figcaption>Gambar 10. Informasi transfer ke rekening Wise</figcaption>
+      </figure>
+    </li>
+    <li>Selesai. Pantau kemajuan proses transaksi di aplikasi Wise.</li>
+  </ol>
+---

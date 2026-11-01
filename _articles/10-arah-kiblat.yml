@@ -1,0 +1,29 @@
+---
+layout: article
+title: "[Muslim] Kemana Arah Kiblat Jika Ingin Sholat?"
+description: "Jawab:"
+section: "Kehidupan di Student Dorm (Viennabase19)"
+section_id: "kehidupan-di-student-dorm-viennabase19"
+published: "2025-10-11"
+order: 10
+permalink: "/articles/arah-kiblat/"
+image: "/assets/images/arah-kiblat-01-tampilan-playstore-aplikasi-izw.jpg"
+image_alt: "Gambar 1. Tampilan PlayStore aplikasi IZW"
+image_width: 1080
+image_height: 2340
+searchable: true
+html: |
+  <p><strong>Jawab:</strong></p>
+  <p>
+    Gunakan aplikasi pihak ketiga untuk membantu menentukan arah kiblat. <em>By default</em>, pihak <em>dorm</em> tidak memberikan informasi kemana arah kiblat, karena Islam bukan agama mayoritas di Vienna.
+  </p>
+  <p>Sangat disarankan untuk mengunduh aplikasi IZW untuk membantu tuntunan sholat selama di Austria.</p>
+  <figure class="guide-figure">
+    <img src="/assets/images/arah-kiblat-01-tampilan-playstore-aplikasi-izw.jpg" alt="Gambar 1. Tampilan PlayStore aplikasi IZW" width="1080" height="2340" loading="eager" decoding="async" fetchpriority="high" style="width:auto;max-width:min(300px,100%)">
+    <figcaption>Gambar 1. Tampilan PlayStore aplikasi IZW</figcaption>
+  </figure>
+  <figure class="guide-figure">
+    <img src="/assets/images/arah-kiblat-02-tampilan-aplikasi-izw.jpg" alt="Gambar 2. Tampilan aplikasi IZW" width="1080" height="2340" loading="lazy" decoding="async" style="width:auto;max-width:min(300px,100%)">
+    <figcaption>Gambar 2. Tampilan aplikasi IZW</figcaption>
+  </figure>
+---

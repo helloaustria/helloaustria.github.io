@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<article class="article">
+  {% if page.section and page.section_id %}
+  <p class="crumbs">
+    <a href="{{ '/' | relative_url }}">Beranda</a>
+    <span aria-hidden="true">/</span>
+    <a href="{{ '/' | relative_url }}#frequently-asked-questions-faqs">FAQ</a>
+    <span aria-hidden="true">/</span>
+    <a href="{{ '/' | relative_url }}#faq-{{ page.section_id }}">{{ page.section }}</a>
+  </p>
+  {% endif %}
+  <h1>{{ page.title }}</h1>
+  {% if page.published %}
+  <p class="article-published">
+    <time datetime="{{ page.published | date: '%Y-%m-%d' }}">{% include format-date.html date=page.published %}</time>
+  </p>
+  {% endif %}
+  {% include toc.html %}
+  <div class="article-body">
+    {{ page.html }}
+  </div>
+</article>

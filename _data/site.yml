@@ -1,0 +1,9 @@
+# Site-wide metadata
+last_updated: 2026-11-01
+
+# Default Open Graph / Twitter share image dimensions + alt
+# (used when a page does not set image_width / image_height).
+share:
+  width: 1200
+  height: 630
+  alt: "Hello Austria"

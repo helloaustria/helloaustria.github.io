@@ -1,0 +1,5 @@
+{%- comment -%}
+  Renders a date as "D Mon YYYY" (e.g. 19 Oct 2025).
+  Usage: {% include format-date.html date=page.published %}
+{%- endcomment -%}
+{{- include.date | date: "%-d %b %Y" -}}
