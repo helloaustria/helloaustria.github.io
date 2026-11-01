@@ -10,7 +10,7 @@
   data-faq-per-page="{{ faq_per_page }}"
 >
   {% for section in site.data.faq.sections %}
-    {%- assign section_articles = articles | where: "section_id", section.id -%}
+    {%- assign section_articles = articles | where: "section_id", section.id | sort: "order" -%}
     {%- assign panel_id = "faq-panel-" | append: section.id -%}
     {%- assign heading_id = "faq-" | append: section.id -%}
     {%- assign is_first = forloop.first -%}

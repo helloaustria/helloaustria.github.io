@@ -41,7 +41,9 @@ module HelloAustria
         articles << page
       end
 
-      articles.sort_by! { |page| page.data["order"].to_i }
+      articles.sort_by! do |page|
+        [page.data["section_id"].to_s, page.data["order"].to_i]
+      end
       site.config["article_pages"] = articles
     end
   end
