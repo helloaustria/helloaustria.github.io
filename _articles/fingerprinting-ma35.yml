@@ -1,21 +1,16 @@
 ---
 layout: article
 title: "Tata Cara Fingerprinting MA35"
-description: "Proses terakhir yang perlu kita lakukan untuk menetapkan status residensi kita di Austria adalah dengan memproses dan mendapatkan kartu izin tinggal…"
 section: "Administrasi"
 section_id: "administrasi"
 published: "2025-10-14"
 order: 3
 permalink: "/articles/fingerprinting-ma35/"
-image: "/assets/images/fingerprinting-ma35-01-contoh-email-janji-temu-izin-tinggal-ke-ma35.png"
-image_alt: "Gambar 1. Contoh email janji temu izin tinggal ke MA35"
-image_width: 1404
-image_height: 579
 searchable: true
 html: |
   <h2 id="pendahuluan">Pendahuluan</h2>
   <p>
-    Proses terakhir yang perlu kita lakukan untuk menetapkan status residensi kita di Austria adalah dengan memproses dan mendapatkan kartu izin tinggal <em>(residence permit card)</em> kita. Seharusnya, pada saat kita sampai di Austria hal yang perlu kita lakukan adalah tinggal mengambil kartu izin tinggal kita di MA35. Akan tetapi, pada saat saya ke MA35, mereka menyampaikan bahwa mereka tidak menerima data biometrik kita sehingga prosesnya harus sedikit lebih “mundur” menjadi pengambilan data biometrik terlebih dahulu <em>(fingerprinting)</em> kemudian dilanjut pengambilan kartu izin tinggal pada jadwal berikutnya. Oleh karena itu, tulisan ini akan menguraikan bagaimana membuat janji temu dan pengambilan data biometrik di MA35.
+    Proses terakhir yang perlu kita lakukan untuk menetapkan status residensi kita di Austria adalah dengan memproses dan mendapatkan kartu izin tinggal <em>(residence permit card)</em>. Seharusnya, pada saat kita sampai di Austria hal yang perlu kita lakukan adalah tinggal mengambil kartu izin tinggal kita di MA35. Akan tetapi, pada saat saya ke MA35, mereka menyampaikan bahwa mereka tidak menerima data biometrik kita sehingga prosesnya harus sedikit lebih “mundur” menjadi pengambilan data biometrik terlebih dahulu <em>(fingerprinting)</em> kemudian dilanjut pengambilan kartu izin tinggal pada jadwal berikutnya. Oleh karena itu, tulisan ini akan menguraikan bagaimana membuat janji temu dan pengambilan data biometrik di MA35.
   </p>
   <h2 id="prasyarat">Prasyarat</h2>
   <ul>
@@ -86,9 +81,9 @@ html: |
     <li>
       <em>OGK Health Insurance Confirmatio</em> merupakan semacam dokumen yang menerangkan bahwa kita sudah terdaftar di OGK. Berikut contoh dari dokumen tersebut:
       <figure class="guide-figure">
-        <img src="/assets/images/fingerprinting-ma35-05-contoh-dokumen-ogk-health-insrance-confirmation-letter.png" alt="Gambar 1. Contoh dokumen OGK Health Insrance Confirmation letter (sumber: dokumentasi pribadi)" width="497" height="706" loading="lazy" decoding="async" style="width:auto;max-width:min(400px,100%)">
+        <img src="/assets/images/fingerprinting-ma35-05-contoh-dokumen-ogk-health-insrance-confirmation-letter.png" alt="Gambar 5. Contoh dokumen OGK Health Insrance Confirmation letter (sumber: dokumentasi pribadi)" width="497" height="706" loading="lazy" decoding="async" style="width:auto;max-width:min(400px,100%)">
         <figcaption>
-          Gambar 1. Contoh dokumen <em>OGK Health Insrance Confirmation letter</em> (sumber: dokumentasi pribadi)
+          Gambar 5. Contoh dokumen <em>OGK Health Insrance Confirmation letter</em> (sumber: dokumentasi pribadi)
         </figcaption>
       </figure>
     </li>

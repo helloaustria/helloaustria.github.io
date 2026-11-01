@@ -8,8 +8,8 @@ sections:
     title: Administrasi
   - id: belanja
     title: Belanja
-  - id: kehidupan-di-student-dorm-viennabase19
-    title: Kehidupan di Student Dorm (Viennabase19)
+  - id: student-dorm-life
+    title: Student Dorm Life
   - id: kesehatan
     title: Kesehatan
   - id: keuangan

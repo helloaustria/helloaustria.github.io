@@ -1,11 +1,10 @@
 ---
 layout: article
 title: "Tata Cara Menggunakan Trem"
-description: "Trem merupakan salah satu transportasi publik andalan di Vienna. Dengan trem, teman-teman bisa menjelajahi berbagai tempat di Vienna"
 section: "Transportasi"
 section_id: "transportasi"
 published: "2025-10-10"
-order: 21
+order: 1
 permalink: "/articles/menggunakan-trem/"
 searchable: true
 html: |
@@ -35,13 +34,13 @@ html: |
       <strong>Rekomendasi:</strong> Beli tiket <em>annual pass</em> karena trem (dan pendukungnya) akan menjadi moda transportasi utama kita di Austria
     </li>
     <li>
-      Pembuatan annual pass perlu foto. Siapkan foto terbaik untuk masuk kedalam tiket <em>annual pass</em>.
+      Pembuatan <em>annual pass</em> perlu foto. Siapkan foto terbaik untuk masuk kedalam tiket <em>annual pass</em>.
     </li>
     <li>
       Terdapat 2 jenis <em>annual pass</em>: <strong>normal</strong> atau <strong>digital </strong>(harga sama).
       <ul>
         <li>
-          <strong>Normal:</strong><em>physical card</em> + <em>digital card</em> (aplikasi)
+          <strong>Normal: </strong><em>physical card</em> + <em>digital card</em> (aplikasi)
           <ul>
             <li>Kartu fisik akan dikirimkan ke alamat dalam 1-2 minggu setelah pengajuan pembuatan.</li>
           </ul>

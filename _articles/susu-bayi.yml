@@ -1,16 +1,11 @@
 ---
 layout: article
 title: "Dimana Saya Bisa Membeli Susu Bayi?"
-description: "Jawab:"
 section: "Belanja"
 section_id: "belanja"
 published: "2025-10-19"
-order: 6
+order: 3
 permalink: "/articles/susu-bayi/"
-image: "/assets/images/susu-bayi-01-rak-babnahrung-di-billa-plus-handelskai.jpg"
-image_alt: "Gambar 1. Rak babnahrung di Billa Plus Handelskai"
-image_width: 540
-image_height: 960
 searchable: true
 html: |
   <p><strong>Jawab:</strong></p>
@@ -22,6 +17,6 @@ html: |
   </p>
   <figure class="guide-figure">
     <img src="/assets/images/susu-bayi-01-rak-babnahrung-di-billa-plus-handelskai.jpg" alt="Gambar 1. Rak babnahrung di Billa Plus Handelskai" width="540" height="960" loading="eager" decoding="async" fetchpriority="high" style="width:auto;max-width:min(400px,100%)">
-    <figcaption>Gambar 1. Rak <em>babnahrung</em> di Billa Plus Handelskai</figcaption>
+    <figcaption>Gambar 1. Rak <em>babynahrung</em> di Billa Plus Handelskai</figcaption>
   </figure>
 ---

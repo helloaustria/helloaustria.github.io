@@ -1,16 +1,11 @@
 ---
 layout: article
 title: "Tata Cara Transfer ke Rekening Indonesia dengan Wise"
-description: "Bagaimana jika kita perlu mentransfer dana ke rekening bank di Indonesia? Wise bisa jadi solusinya! Wise merupakan platform pihak ketiga yang menyediakan…"
 section: "Keuangan"
 section_id: "keuangan"
 published: "2025-10-19"
-order: 19
+order: 6
 permalink: "/articles/transfer-wise/"
-image: "/assets/images/transfer-wise-01-klik-tombol-send.jpg"
-image_alt: "Gambar 1. Klik tombol “send”"
-image_width: 591
-image_height: 350
 searchable: true
 html: |
   <h2 id="pendahuluan">Pendahuluan</h2>

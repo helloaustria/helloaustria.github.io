@@ -1,11 +1,10 @@
 ---
 layout: article
 title: "Aplikasi yang Saya Cari Tidak Ditemukan?"
-description: "Jawab:"
 section: "Lainnya"
 section_id: "lainnya"
 published: "2025-10-21"
-order: 24
+order: 2
 permalink: "/articles/aplikasi-tidak-ditemukan/"
 searchable: true
 html: |

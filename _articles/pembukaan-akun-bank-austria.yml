@@ -1,11 +1,10 @@
 ---
 layout: article
 title: "Tata Cara Pembukaan Akun Bank Austria"
-description: "Akun bank Austria sangat penting untuk berbagai kehidupan ekonomi selama di Austria. Mulai dari menerima stipend, pendaftaran berbagai fasilitas, hingga…"
 section: "Keuangan"
 section_id: "keuangan"
 published: "2025-10-10"
-order: 15
+order: 2
 permalink: "/articles/pembukaan-akun-bank-austria/"
 searchable: true
 html: |
@@ -22,7 +21,7 @@ html: |
   <h2 id="prosedur">Prosedur</h2>
   <ol>
     <li>
-      Buat janji <em>(appointment)</em> melalui <em>link</em> sebagai berikut: <a href="https://www.bankaustria.at/produktuebersicht.jsp#tab57354" target="_blank" rel="noopener noreferrer">https://www.bankaustria.at/produktuebersicht.jsp#tab57354</a>
+      Buat janji <em>(appointment)</em> melalui tautan sebagai berikut: <a href="https://www.bankaustria.at/produktuebersicht.jsp#tab57354" target="_blank" rel="noopener noreferrer">https://www.bankaustria.at/produktuebersicht.jsp#tab57354</a>
     </li>
     <li>
       Datang ke cabang Bank Austria sesuai tempat, tanggal, dan waktu <em>appointment</em> yang sudah dibuat.
@@ -59,7 +58,7 @@ html: |
       <strong>Aplikasi:</strong> Ada 2 jenis <em>password</em> yaitu <strong>PIN</strong> dan <strong>ATC</strong>.
       <ul>
         <li>PIN digunakan untuk masuk ke dalam aplikasi.</li>
-        <li>ATC digunakan untuk mengonfirmasi transaski (misal, transfer dana)</li>
+        <li>ATC digunakan untuk mengonfirmasi transaksi (misal, transfer dana)</li>
       </ul>
     </li>
   </ul>

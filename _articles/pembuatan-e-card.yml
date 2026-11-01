@@ -1,30 +1,30 @@
 ---
 layout: article
 title: "Tata Cara Pembuatan e-Card"
-description: "Setelah pendaftaran OGK selesai (dibuktikan dengan social security number), langkah selanjutnya adalah melakukan pembuatan e-card. e-Card ini yang…"
 section: "Kesehatan"
 section_id: "kesehatan"
 published: "2025-10-13"
-order: 13
+order: 2
 permalink: "/articles/pembuatan-e-card/"
 searchable: true
 html: |
   <h2 id="pendahuluan">Pendahuluan</h2>
   <p>
-    Setelah pendaftaran OGK selesai (dibuktikan dengan <em>social security number</em>), langkah selanjutnya adalah melakukan pembuatan <em>e-card</em>. <em>e-Card</em> ini yang kemudian akan digunakan untuk berbagai kebutuhan, termasuk yang berkaitan dengan <em>health insurance</em>.
+    Setelah pendaftaran ÖGK selesai (dibuktikan dengan <em>social security number</em>), langkah selanjutnya adalah melakukan pembuatan <em>e-card</em>. <em>e-Card</em> ini yang kemudian akan digunakan untuk berbagai kebutuhan, termasuk yang berkaitan dengan <em>health insurance</em>.
   </p>
   <h2 id="persyaratan">Persyaratan</h2>
   <ul>
     <li>Pas foto dengan kriteria <em>EU Passport</em></li>
-    <li><em>Social security number</em> (nomor asuransi)</li>
+    <li><em>Social security number</em></li>
   </ul>
-  <h2 id="link-janji-temu">Link Janji Temu</h2>
+  <h2 id="link-janji-temu">Tautan Janji Temu</h2>
   <p>
     <a href="https://citizen.bmi.gv.at/at.gv.bmi.fnsetvweb-p/etv/public/Terminvereinbarung" target="_blank" rel="noopener noreferrer">https://citizen.bmi.gv.at/at.gv.bmi.fnsetvweb-p/etv/public/Terminvereinbarung</a>
   </p>
   <h2 id="langkah-langkah">Langkah-Langkah</h2>
   <ol>
-    <li>Buat janji temu melalui <em>link</em> yang disediakan.</li>
+    <li>Buat janji temu melalui tautan yang disediakan.</li>
+    <li>Datang sesuai dengan janji temu yang dibuat dengan membawa seluruh dokumen yang diperlukan.</li>
+    <li>Selesai. Kartu <em>e-card</em> akan dikirimkan ke alamat tempat tinggal.
   </ol>
-  <p>TBA</p>
 ---

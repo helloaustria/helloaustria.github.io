@@ -1,16 +1,11 @@
 ---
 layout: article
 title: "Tata Cara Belanja di Billa"
-description: "Perlu belanja kebutuhan pangan sehari-hari? Cari toko yang mirip dengan Alfamart dan Indomaret di Indonesia? Tentu, Billa jawabannya! Sebenarnya, ada…"
 section: "Belanja"
 section_id: "belanja"
 published: "2025-10-11"
-order: 4
+order: 1
 permalink: "/articles/belanja-di-billa/"
-image: "/assets/images/belanja-di-billa-01-contoh-barang-barang-yang-dijual-di-billa.jpg"
-image_alt: "Gambar 1. Contoh barang-barang yang dijual di Billa"
-image_width: 720
-image_height: 1280
 searchable: true
 html: |
   <h2 id="pendahuluan">Pendahuluan</h2>
@@ -27,7 +22,7 @@ html: |
     <li><strong>Billa</strong>,</li>
     <li><strong>Billa Plus</strong>, Billa dengan variasi stok yang jauh lebih lengkap</li>
     <li>
-      <strong>Billa Corso</strong>, hanya ditemukan di beberapa tempat tertentu (salah satunya di stephansplatz)
+      <strong>Billa Corso</strong>, hanya ditemukan di beberapa tempat tertentu (salah satunya di Stephansplatz)
     </li>
   </ul>
   <h2 id="langkah-langkah">Langkah-langkah</h2>
@@ -60,7 +55,7 @@ html: |
       </figure>
     </li>
     <li>
-      <strong>Billa hanya buka Senin s.d. Sabtu.</strong> Hari Minggu libur (kecuali beberapa jenis dan cabang Billa).
+      <strong>Billa hanya buka Senin s.d. Sabtu.</strong> Hari Nasional dan Minggu libur (kecuali beberapa jenis dan cabang Billa).
     </li>
   </ul>
 ---
